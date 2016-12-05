@@ -1,0 +1,53 @@
+/* site Navigation bar*/
+.navbar-inverse{
+	background-color: #375a7f;
+	box-shadow: 0px 4px 0px 0px #f90;
+	opacity: 0.95;
+	z-index: 10;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus{
+	color: white;
+	background-color: #e95420;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover{
+	background-color: #28415b;
+}
+/* Projects Sidebar */
+#sidebar.fade .modal-dialog {
+   position: fixed;
+   height: 100%;
+   width: 350px;
+   margin: 0px;
+   -webkit-transform: translate3d(0%, 0, 0);
+   -ms-transform: translate3d(0%, 0, 0);
+   -o-transform: translate3d(0%, 0, 0);
+   transform: translate3d(0%, 0, 0);
+}
+#sidebar.fade .modal-dialog{
+	right: -350px;
+	-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+   -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+   	-o-transition: opacity 0.3s linear, right 0.3s ease-out;
+	transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+#sidebar.fade.in .modal-dialog{
+	right:0;
+}
+#sidebar .modal-content{
+	height: 100%;
+	overflow: auto;
+	border: none;
+   	border-radius: 0;
+}
+#sidebar .modal-header{
+	color: white;
+	background-color: #375a7f; 
+}
