@@ -3,7 +3,7 @@
 	background-color: #375a7f;
 	box-shadow: 0px 4px 0px 0px #f90;
 	opacity: 0.95;
-	z-index: 10;
+	z-index: 100;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
@@ -50,4 +50,24 @@
 #sidebar .modal-header{
 	color: white;
 	background-color: #375a7f; 
+}
+/* About-section */
+#about-section{
+	margin-top: 55px;
+	height: 300px;
+}
+/* floating btn*/
+.floating-btn{
+	position: fixed;
+	right: 30px;
+	top: 400px;
+	z-index: 100;
+	border-radius: 50%;
+	color: white;
+	background-color: #375a7f;
+}
+.floating-btn:hover,
+.floating-btn:focus{
+	background-color: #e95420;
+	color: white;
 }
