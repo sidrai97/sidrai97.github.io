@@ -47,10 +47,25 @@
 	overflow: auto;
 	border: none;
    	border-radius: 0;
+   	background-color: #375a7f;
 }
 #sidebar .modal-header{
+	border: none;
+   	border-radius: 0;
 	color: white;
-	background-color: #375a7f; 
+	background-color: #e95420; 
+}
+#sidebar .modal-body{
+	overflow: auto;
+	border: none;
+   	border-radius: 0;
+	background-color: #375a7f;
+}
+#sidebar .modal-body a{
+	color: white;
+}
+#sidebar .modal-body a:hover{
+	background-color: #e95420;
 }
 /* About-section */
 #about-section{
