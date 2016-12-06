@@ -54,7 +54,8 @@
 }
 /* About-section */
 #about-section{
-	margin-top: 55px;
+	padding-top: 55px;
+	background-color: white;
 	background-image: url('../images/newback.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
