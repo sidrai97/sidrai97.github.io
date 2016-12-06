@@ -67,6 +67,9 @@
 #sidebar .modal-body a:hover{
 	background-color: #e95420;
 }
+#sidebar .modal-body a:focus{
+	background-color: #e95420;
+}
 /* About-section */
 #about-section{
 	background-color: white;
