@@ -60,7 +60,7 @@
 .floating-btn{
 	position: fixed;
 	right: 15px;
-	top: 400px;
+	bottom: 50px;
 	z-index: 100;
 	border-radius: 50%;
 	color: white;
