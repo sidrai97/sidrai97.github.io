@@ -25,7 +25,7 @@
 #sidebar.fade .modal-dialog {
    position: fixed;
    height: 100%;
-   width: 350px;
+   width: 300px;
    margin: 0px;
    -webkit-transform: translate3d(0%, 0, 0);
    -ms-transform: translate3d(0%, 0, 0);
@@ -33,7 +33,7 @@
    transform: translate3d(0%, 0, 0);
 }
 #sidebar.fade .modal-dialog{
-	right: -350px;
+	right: -300px;
 	-webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
    	-o-transition: opacity 0.3s linear, right 0.3s ease-out;
