@@ -86,6 +86,7 @@
 #dp{
 	height: 230px;
 	width: 230px;
+	margin: 0 auto;
 }
 /* floating btn*/
 .floating-btn{
