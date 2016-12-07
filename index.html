@@ -69,7 +69,7 @@
 		<!-- sidebar end -->
 
 		<!-- Floating Button-->
-		<a class="btn btn-lg floating-btn" href="#about-section"><span class="fa fa-chevron-up"></span></a>
+		<a id="go-to-top" class="btn btn-lg floating-btn" href="#about-section"><span class="fa fa-chevron-up"></span></a>
 		<!-- floating btn end-->
 
 		<!-- About-->
@@ -141,21 +141,85 @@
 			      <div class="item">
 			        <div class="">
 			          <h3><kbd>Experience</kbd></h3>
-			          <p>The atmosphere in Chania has a touch of Florence and Venice.</p>
+			          <div class="table-responsive">
+			          	<table class="table table-hover">
+			          		<thead>
+			          			<tr>
+			          				<th>Company Name</th>
+			          				<th>Duration</th>
+			          				<th>Job</th>
+			          			</tr>
+			          		</thead>
+			          		<tbody>
+			          			<tr>
+			          				<td>Reliance InterThrone</td>
+			          				<td>Sept, 2016 - Now</td>
+			          				<td>Web Developer</td>
+			          			</tr>
+			          		</tbody>
+			          	</table>
+			          </div>
 			        </div>
 			      </div>
 			    
 			      <div class="item">
 			        <div class="">
 			          <h3><kbd>Skills</kbd></h3>
-			          <p>Achievements</p>
+			          <div class="table-responsive">
+			          	<table class="table table-hover">
+			          		<tbody>
+			          			<tr>
+			          				<td>C</td>
+			          				<td>NodeJS</td>
+			          				<td>MySql</td>
+			          			</tr>
+			          			<tr>
+			          				<td>C++</td>
+			          				<td>AngularJS</td>
+			          				<td>Postgres</td>
+			          			</tr>
+			          			<tr>
+			          				<td>JAVA</td>
+			          				<td>Laravel</td>
+			          				<td>Oracle</td>
+			          			</tr>
+			          			<tr>
+			          				<td>Python</td>
+			          				<td>Bootstrap</td>
+			          				<td>MongoDB</td>
+			          			</tr>
+			          			<tr>
+			          				<td>Android</td>
+			          				<td>JSP</td>
+			          				<td></td>
+			          			</tr>
+			          		</tbody>
+			          	</table>
+			          </div>
 			        </div>
 			      </div>
 
 			      <div class="item">
 			        <div class="">
 			          <h3><kbd>Achievements</kbd></h3>
-			          <p>Beatiful flowers in Kolymbari, Crete.</p>
+			          <div  class="table-responsive">
+			          	<table class="table table-hover">
+			          		<tbody>
+			          			<tr>
+			          				<td>Completed Java Certification from Oracle, Oct 2016</td>
+			          			</tr>
+			          			<tr>
+			          				<td>1<sup>st</sup> Rank in Diploma, Bhausaheb Vartak Polytechnic, May 2015</td>
+			          			</tr>
+			          			<tr>
+			          				<td>Project (Scrolling Led Message Display) was selected for State level project competition, Mar 2015</td>
+			          			</tr>
+			          			<tr>
+			          				<td>1<sup>st</sup> prize in Inter-college Street Play Competition, Feb 2015</td>
+			          			</tr>
+			          		</tbody>
+			          	</table>
+			          </div>
 			        </div>
 			      </div>
 			    </div>
@@ -173,13 +237,20 @@
 					<img src="./images/oracle.gif" class="img-responsive img-rounded">
 				</div>
 			</div>
+			<div class="container-fluid text-center" style="padding-top: 50px;">
+					<h2>Check out My Projects!! 
+						<button class="btn btn-success" data-toggle="modal" data-target="#sidebar">HERE 
+							<span class="fa fa-hand-o-up"></span>
+						</button>
+					</h2>
+			</div>
 		</div>
 		<!-- portfolio end -->
 
 		<!-- follow me -->
 		<div id="follow" class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12 text-center"><h1><kbd>Follow Me On</kbd></h1></div>
+				<div class="col-xs-12 text-center"><h1><kbd>Follow Me On <span class="fa fa-hand-o-down"></span></kbd></h1></div>
 			</div>
 			<div id="social-buttons" class="row text-center">
 				<div class="col-xs-12 col-sm-4 col-md-2">
@@ -217,10 +288,20 @@
 		<!-- follow me end -->
 
 		<!-- footer -->
+		<nav id="footer-bar" class="navbar navbar-inverse">
+			<h4 class="text-right" style="color: white;">Made in 
+				<span class="fa fa-heart"></span> with BootStrap&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+		</nav>
 		<!-- footer end-->
 
 		<!-- js links -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   		<script src="./scripts/bootstrap.min.js"></script>
+  		<script type="text/javascript">
+  			$('#go-to-top').click(function(){
+        		$('html,body').animate({ scrollTop: 0 }, 'slow');
+        		return false; 
+			});
+  		</script>
 	</body>
 </html>

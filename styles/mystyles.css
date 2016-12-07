@@ -1,10 +1,13 @@
 /**#FF4500 affix/
 /* site Navigation bar*/
-.navbar-inverse{
+#top-navbar.navbar-inverse{
 	background-color: #375a7f;
 	box-shadow: 0px 4px 0px 0px #f90;
 	opacity: 0.95;
 	z-index: 100;
+	border: none;
+	border-radius: 0px;
+	margin-bottom: 0px;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
@@ -76,7 +79,7 @@
 	background-image: url('../images/newback.jpg');
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
-	padding:70px 30px 70px 30px;
+	padding:100px 30px 100px 30px;
 	color: white;
 	margin-bottom: 0px;
 }
@@ -114,6 +117,8 @@
 }
 /*portfolio section*/
 #portfolio-section{
+	padding-top: 80px;
+	padding-bottom: 80px;
 	margin-bottom: 0px;
 	background-image: url("../images/back.png");
 	background-size: 100% 100%;
@@ -132,4 +137,11 @@
 }
 #myCarousel{
 	height: 300px;
+}
+/* Footer bar*/
+#footer-bar.navbar-inverse{
+	background-color: #375a7f;
+	border: none;
+	border-radius: 0px;
+	margin-bottom: 0px;
 }
