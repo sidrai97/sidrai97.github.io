@@ -114,7 +114,19 @@
 }
 /*portfolio section*/
 #portfolio-section{
-	height: 600px;
-	background-color: yellowgreen;
 	margin-bottom: 0px;
+	background-image: url("../images/back.png");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.carousel-inner > .item > div{
+	width: 80%;
+	margin: auto;
+}
+#java-logo{
+	margin-top: 30px;
+}
+#java-logo img{
+	width: 350px;
+	height: 150px;
 }
