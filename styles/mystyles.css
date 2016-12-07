@@ -135,6 +135,9 @@
 	width: 350px;
 	height: 150px;
 }
+#java-logo .img-responsive{
+	margin: 0 auto;
+}
 #myCarousel{
 	height: 300px;
 }
