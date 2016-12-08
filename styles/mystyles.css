@@ -149,3 +149,23 @@
 	border-radius: 0px;
 	margin-bottom: 0px;
 }
+/*splash */
+#splash.fade .modal-dialog{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	border: none;
+	border-radius: 0px;
+}
+#splash .modal-content{
+	height: 100%;
+	border: none;
+	border-radius: 0px;
+}
+#splash .modal-body{
+	height: 100%;
+	background-image: url('../images/arc.jpeg');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
